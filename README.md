@@ -23,24 +23,6 @@ Edit
 git clone https://github.com/priyu9-star/financial-chatbot.git
 cd financial-chatbot/backend
 
-# Create virtual environment and activate
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Add your Alpha Vantage API Key to .env
-echo "ALPHA_VANTAGE_API_KEY=your_api_key_here" > .env
-
-# Run the Flask server
-python app.py
-Frontend Setup (React)
-bash
-Copy
-Edit
-cd ../frontend
-
 👩‍💻 Author
 
 Priyanshi Jayant
